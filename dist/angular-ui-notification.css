@@ -50,7 +50,38 @@
     text-align: left;
 
     border-bottom: 1px solid rgba(255, 255, 255, .3);
+    padding-right: 30px;
+
 }
+
+
+
+.ui-notification>button.close {
+    position: relative;
+    top: 3px;
+    right: 8px;
+    color: #fff;
+}
+
+.ui-notification>button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+}
+
+.ui-notification>button.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=60);
+    opacity: .6;
+}
+
 .ui-notification a
 {
     color: #fff;
